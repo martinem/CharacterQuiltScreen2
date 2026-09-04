@@ -1,0 +1,16 @@
+GET https://cq-screen.bhairav.workers.dev/ -> 200 OK
+--- headers ---
+Date: Fri, 04 Sep 2026 16:58:45 GMT
+Content-Type: application/json
+Content-Length: 42
+Connection: keep-alive
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=zKInL96V1fxAG1FSWSuzY%2BhW0Wk1A6YvEL5X2f3kuZnPEzqCbP92Tv2pZjXy15rWzEmWKB9M%2FOxZ5kCXUHzb%2F52rVSKsvM7i6%2B0raMJ9%2FDGxNjUE0HZHDdqUnfr6Bk4QGoHP9%2BjyyRV8akOMsuIyMw%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a35e8a74dfdf1aea-EWR
+alt-svc: h3=":443"; ma=86400
+--- body (42 bytes) ---
+{
+  "service": "cq-screen",
+  "ok": true
+}
