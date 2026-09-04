@@ -1,0 +1,14 @@
+=== attempt 1: POST /s2/deploy asset=as-0002 idem=deploy-as-0002-demo -> 201 Created ===
+{
+  "asset_id": "as-0002",
+  "checksum": "9c142n",
+  "at": 1788543105988
+}
+
+=== attempt 2: POST /s2/deploy asset=as-0002 idem=deploy-as-0002-demo -> 200 OK ===
+{
+  "asset_id": "as-0002",
+  "checksum": "9c142n",
+  "at": 1788543105988,
+  "replayed": true
+}

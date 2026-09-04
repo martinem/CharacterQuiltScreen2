@@ -1,0 +1,17 @@
+POST /s2/deploy {"asset_id":"as-0001"} -> 201 Created
+--- headers ---
+Date: Fri, 04 Sep 2026 17:14:37 GMT
+Content-Type: application/json
+Content-Length: 74
+Connection: keep-alive
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Lu8o%2Fev6dvsrcbRhAiRlCxcfNBkzuf9LGqeG6njKFuFLLCO1HWKmMG2j2ZsjLCYIzJMbsgJ49aaidJurLCIV%2BzitlHgQeCIwaLVWn7HRk%2FddQFBlyTuxdoVbzbDfOvBfSujvxJO3AUO1A0YROdLCgA%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a35ea1b11e092142-EWR
+alt-svc: h3=":443"; ma=86400
+--- body ---
+{
+  "asset_id": "as-0001",
+  "checksum": "bs00y4",
+  "at": 1788542077628
+}

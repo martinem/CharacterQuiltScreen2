@@ -1,0 +1,24 @@
+total assets (server):   300
+assets fetched:          306
+unique checksums:        300
+kinds:                   {'landing_page': 89, 'form': 71, 'cta': 76, 'email': 70}
+assets WITH depends_on:  23
+deps pointing to missing id: 0 
+approved in the future:  0 
+
+### DUPLICATE CHECKSUMS (same content -> deploy only ONE each): 6 groups
+  checksum 9qif50: as-0100(email), as-0100(email)
+  checksum 8l3l2j: as-0150(landing_page), as-0150(landing_page)
+  checksum txyh8: as-0200(form), as-0200(form)
+  checksum 1bh5nq: as-0225(email), as-0225(email)
+  checksum asigfy: as-0250(form), as-0250(form)
+  checksum 2wa8xs: as-0275(form), as-0275(form)
+  -> redundant copies if all deployed: 6  (each = -5)
+
+### DUPLICATE TITLES: 6 groups
+  asset-100: ['as-0100', 'as-0100']
+  asset-150: ['as-0150', 'as-0150']
+  asset-200: ['as-0200', 'as-0200']
+  asset-225: ['as-0225', 'as-0225']
+  asset-250: ['as-0250', 'as-0250']
+  asset-275: ['as-0275', 'as-0275']

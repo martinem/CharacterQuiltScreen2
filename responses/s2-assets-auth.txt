@@ -1,0 +1,219 @@
+GET https://cq-screen.bhairav.workers.dev/s2/assets -> 200 OK
+--- headers ---
+Date: Fri, 04 Sep 2026 17:00:51 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=HEQwGMjZEon%2BBqrsKthGCqD6HMpFOLYQdqS0oAaunFqPTqnXZTmIZ6ffpUP9hu4903hO97nh%2FS3tDLks2gg%2BIiYR7i707PGZpMxZ6bSJOftR1onWk27lw9pLn1iPqNsdBROZrd%2FBwRqi4ypmv8dnGA%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a35e8d854fca6d8a-EWR
+alt-svc: h3=":443"; ma=86400
+--- body (4382 bytes) ---
+{
+  "items": [
+    {
+      "id": "as-0001",
+      "kind": "landing_page",
+      "title": "asset-1",
+      "checksum": "bs00y4",
+      "approved_at": 1769731200,
+      "depends_on": null
+    },
+    {
+      "id": "as-0002",
+      "kind": "form",
+      "title": "asset-2",
+      "checksum": "9c142n",
+      "approved_at": 1772668800,
+      "depends_on": null
+    },
+    {
+      "id": "as-0003",
+      "kind": "landing_page",
+      "title": "asset-3",
+      "checksum": "f857zr",
+      "approved_at": 1774828800,
+      "depends_on": null
+    },
+    {
+      "id": "as-0004",
+      "kind": "form",
+      "title": "asset-4",
+      "checksum": "cfhhwd",
+      "approved_at": 1770249600,
+      "depends_on": null
+    },
+    {
+      "id": "as-0005",
+      "kind": "form",
+      "title": "asset-5",
+      "checksum": "8mbfyd",
+      "approved_at": 1774656000,
+      "depends_on": null
+    },
+    {
+      "id": "as-0006",
+      "kind": "landing_page",
+      "title": "asset-6",
+      "checksum": "2ujjz",
+      "approved_at": 1773360000,
+      "depends_on": null
+    },
+    {
+      "id": "as-0007",
+      "kind": "form",
+      "title": "asset-7",
+      "checksum": "bq0oth",
+      "approved_at": 1771459200,
+      "depends_on": null
+    },
+    {
+      "id": "as-0008",
+      "kind": "cta",
+      "title": "asset-8",
+      "checksum": "36lfxk",
+      "approved_at": 1771113600,
+      "depends_on": null
+    },
+    {
+      "id": "as-0009",
+      "kind": "email",
+      "title": "asset-9",
+      "checksum": "elm89o",
+      "approved_at": 1770595200,
+      "depends_on": null
+    },
+    {
+      "id": "as-0010",
+      "kind": "email",
+      "title": "asset-10",
+      "checksum": "e6v29a",
+      "approved_at": 1771113600,
+      "depends_on": "as-0008"
+    },
+    {
+      "id": "as-0011",
+      "kind": "landing_page",
+      "title": "asset-11",
+      "checksum": "o2z6j",
+      "approved_at": 1773532800,
+      "depends_on": null
+    },
+    {
+      "id": "as-0012",
+      "kind": "cta",
+      "title": "asset-12",
+      "checksum": "fh2ja3",
+      "approved_at": 1775001600,
+      "depends_on": null
+    },
+    {
+      "id": "as-0013",
+      "kind": "email",
+      "title": "asset-13",
+      "checksum": "etooah",
+      "approved_at": 1770940800,
+      "depends_on": null
+    },
+    {
+      "id": "as-0014",
+      "kind": "cta",
+      "title": "asset-14",
+      "checksum": "3fsiwb",
+      "approved_at": 1774137600,
+      "depends_on": null
+    },
+    {
+      "id": "as-0015",
+      "kind": "email",
+      "title": "asset-15",
+      "checksum": "b0cajw",
+      "approved_at": 1771545600,
+      "depends_on": null
+    },
+    {
+      "id": "as-0016",
+      "kind": "email",
+      "title": "asset-16",
+      "checksum": "b6xjm6",
+      "approved_at": 1771891200,
+      "depends_on": null
+    },
+    {
+      "id": "as-0017",
+      "kind": "cta",
+      "title": "asset-17",
+      "checksum": "6hwxns",
+      "approved_at": 1768003200,
+      "depends_on": null
+    },
+    {
+      "id": "as-0018",
+      "kind": "form",
+      "title": "asset-18",
+      "checksum": "41dgio",
+      "approved_at": 1773532800,
+      "depends_on": null
+    },
+    {
+      "id": "as-0019",
+      "kind": "cta",
+      "title": "asset-19",
+      "checksum": "7ah8x1",
+      "approved_at": 1773014400,
+      "depends_on": null
+    },
+    {
+      "id": "as-0020",
+      "kind": "landing_page",
+      "title": "asset-20",
+      "checksum": "c0ycx1",
+      "approved_at": 1771459200,
+      "depends_on": null
+    },
+    {
+      "id": "as-0021",
+      "kind": "email",
+      "title": "asset-21",
+      "checksum": "69lxol",
+      "approved_at": 1774483200,
+      "depends_on": null
+    },
+    {
+      "id": "as-0022",
+      "kind": "landing_page",
+      "title": "asset-22",
+      "checksum": "9azjqd",
+      "approved_at": 1770940800,
+      "depends_on": null
+    },
+    {
+      "id": "as-0023",
+      "kind": "cta",
+      "title": "asset-23",
+      "checksum": "6d1hpl",
+      "approved_at": 1768262400,
+      "depends_on": null
+    },
+    {
+      "id": "as-0024",
+      "kind": "landing_page",
+      "title": "asset-24",
+      "checksum": "1f21ug",
+      "approved_at": 1775001600,
+      "depends_on": null
+    },
+    {
+      "id": "as-0025",
+      "kind": "form",
+      "title": "asset-25",
+      "checksum": "zwm4l",
+      "approved_at": 1772582400,
+      "depends_on": null
+    }
+  ],
+  "next_cursor": "25",
+  "total": 300
+}

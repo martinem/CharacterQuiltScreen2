@@ -1,0 +1,17 @@
+POST /s2/report -> 200 OK
+--- request: 300 entries, all status=deployed ---
+--- headers ---
+Date: Fri, 04 Sep 2026 18:07:38 GMT
+Content-Type: application/json
+Content-Length: 38
+Connection: keep-alive
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Lst1z2hrA1Unf14a53N24pJ1TjEXjlL2Id0hhDHuJ6eXV21HXpGN3%2B3RttXTe%2BqoM8AR4mCR03CuVFIL3QuAxsL%2BiXAu94Dq3JUGDouqkR72BiiZfQhEcI7BJM3AnOTweQO4WkZTVx8KZqKAp6Ji2A%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a35eef5c282672b6-EWR
+alt-svc: h3=":443"; ma=86400
+--- body ---
+{
+  "sealed": true,
+  "entries": 300
+}

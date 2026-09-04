@@ -1,0 +1,16 @@
+GET https://cq-screen.bhairav.workers.dev/s2/assets -> 401 Unauthorized
+--- headers ---
+Date: Fri, 04 Sep 2026 16:58:48 GMT
+Content-Type: application/json
+Content-Length: 104
+Connection: keep-alive
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0NAUPEYM%2FRMYdmXLx%2FBW8gD5u7jCWY%2FV60h04s28ekZ4pYwokJ0Qual8CN0pC%2FLesL20bHE4QXtH%2FmT2MOkGZpDX5HuSY1WKEKcxrjByaHnUhyemdbJFP6eAEaMsR%2F1rYdElsBXdYM6sdlgLiiU8Zg%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a35e8a8409441aea-EWR
+alt-svc: h3=":443"; ma=86400
+--- body (104 bytes) ---
+{
+  "error": "missing_bearer_token",
+  "hint": "POST /auth/start with your X-Candidate-Key to get one"
+}

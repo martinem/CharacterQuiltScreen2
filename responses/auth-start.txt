@@ -1,0 +1,18 @@
+POST https://cq-screen.bhairav.workers.dev/auth/start -> 200 OK
+--- headers ---
+Date: Fri, 04 Sep 2026 17:00:50 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ZITBm9QDAFFJpZvn%2FjG9FnW3xcaZaDJ%2BbafN7v1CS3JYXa3Pr82UWDvJ9vUHGBpcNpGdfWrOZcoF%2FNE53qgCuHrr7Bhr0SFVYlcQukwq83S6fZ4y%2F2cbGG5nZOo2D%2B24XLLjsZYjNhxETZHK5ESQvA%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a35e8d7de9666d8a-EWR
+alt-svc: h3=":443"; ma=86400
+--- body (109 bytes) ---
+{
+  "access_token": "6e234b6bf88a77565e45a57be2eb0a90",
+  "expires_in": 300,
+  "run_minutes_remaining": 120
+}

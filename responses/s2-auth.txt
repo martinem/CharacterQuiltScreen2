@@ -1,0 +1,15 @@
+GET https://cq-screen.bhairav.workers.dev/s2/ -> 404 Not Found
+--- headers ---
+Date: Fri, 04 Sep 2026 17:00:50 GMT
+Content-Type: application/json
+Content-Length: 26
+Connection: keep-alive
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=AZtoHsXcudEtHhRFVivBZkQvSIeyhyeHs8dZ3SYV%2FR2VwzasmuBcpEx8jzsQBpkWxoFjznHl3NZbHHlArHkaddzV4j8fk6sYqWDy%2F%2FoUtoJd91Gv3wkWUHTWZKaCnXnaq41jKAKeFh2d6Pkkn8zRxw%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a35e8d7ebacd6d8a-EWR
+alt-svc: h3=":443"; ma=86400
+--- body (26 bytes) ---
+{
+  "error": "not_found"
+}
